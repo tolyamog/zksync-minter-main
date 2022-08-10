@@ -1,0 +1,8 @@
+.env
+node_modules
+artifacts-zk
+cache-zk
+yarn.lock
+package.lock
+.DS_Store
+.NOTES.md
