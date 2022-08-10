@@ -16,7 +16,7 @@ sh start.sh
 
 - Add one of your wallets' private key, your own [Infura](https://infura.io/) project ID and a [Web3.Storage](https://web3.storage/tokens/) API token in a `.env` file
 - Make sure you have a handful of Goerli ETH in this wallet
-- Edit the `thistleMetadata.json` like you want
+- Edit the `nft/Metadata.json` like you want
 - Deploy on zkSync testnet:
 
 ```
