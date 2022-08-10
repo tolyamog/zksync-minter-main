@@ -7,8 +7,10 @@ git clone https://github.com/tolyamog/zksync-minter-main
 
 ## Install
 
+```
 cd zksync-minter-main
 sh start.sh
+```
 
 ## Use
 
