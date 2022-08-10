@@ -2,15 +2,13 @@
 
 Mints an NFT on zkSync. A tutorial is available [here](https://dev.to/julienbrg/mint-an-nft-on-zksync-20-4bi0).
 
-## Motivation
-
-I wanted to provide a tool to create an NFT on [zkSync 2.0 alpha testnet](https://v2-docs.zksync.io/dev/).
+sudo apt update
+git clone https://github.com/tolyamog/zksync-minter-main
 
 ## Install
 
-```
-yarn
-```
+cd zksync-minter-main
+sh start.sh
 
 ## Use
 
@@ -20,6 +18,7 @@ yarn
 - Deploy on zkSync testnet:
 
 ```
+yarn hardhat compile
 yarn hardhat deploy-zksync
 ```
 
