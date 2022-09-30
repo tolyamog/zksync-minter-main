@@ -17,13 +17,13 @@ export default async function (hre: HardhatRuntimeEnvironment) {
   const artifact = await deployer.loadArtifact("Thistle");
 
   // // Deposit some funds to L2
-  // const depositAmount = ethers.utils.parseEther("0.002");
-  // const depositHandle = await deployer.zkWallet.deposit({
-  //   to: deployer.zkWallet.address,
-  //   token: utils.ETH_ADDRESS,
-  //   amount: depositAmount,
-  // });
-  // await depositHandle.wait();
+   const depositAmount = ethers.utils.parseEther("0.002");
+   const depositHandle = await deployer.zkWallet.deposit({
+     to: deployer.zkWallet.address,
+     token: utils.ETH_ADDRESS,
+     amount: depositAmount,
+   });
+   await depositHandle.wait();
 
   function getAccessToken() {
     console.log("✅ getAccessToken");
