@@ -5,7 +5,7 @@ dotenv.config();
 
 module.exports = {
   zksolc: {
-    version: "0.1.0",
+    version: "1.2.0",
     compilerSource: "docker",
     settings: {
       optimizer: {
@@ -27,6 +27,6 @@ module.exports = {
     },
   },
   solidity: {
-    version: "0.8.12",
+    version: "0.8.16",
   },
 };
